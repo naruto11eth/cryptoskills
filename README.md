@@ -21,26 +21,30 @@ CryptoSkills fixes this with protocol-level skills that any AI agent can load.
 
 ## Install
 
-### Claude Code
+```bash
+npx cryptoskills install <skill>
+```
+
+Install one or more skills to your project:
 
 ```bash
-/plugin marketplace add naruto11eth/cryptoskills
-/plugin install uniswap
-/plugin install foundry
+npx cryptoskills install uniswap
+npx cryptoskills install aave foundry solidity-security
+npx cryptoskills install --all
 ```
 
-### Cursor
-
-Settings > Rules & Commands > Remote Rule:
-
-```
-https://github.com/naruto11eth/cryptoskills.git
-```
-
-### Any Agent (npx)
+Target a specific agent with `-a`:
 
 ```bash
-npx skills add naruto11eth/cryptoskills
+npx cryptoskills install aave -a claude-code
+npx cryptoskills install aave -a cursor
+```
+
+Browse available skills at **[cryptoskills.dev](https://cryptoskills.dev)** or from the CLI:
+
+```bash
+npx cryptoskills list --chain solana
+npx cryptoskills list --category DeFi
 ```
 
 ## Skills (95)
