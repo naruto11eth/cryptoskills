@@ -160,10 +160,11 @@ npx cryptoskills list --category DeFi
 | [hyperlane](skills/hyperlane/) | multichain | Hyperlane — permissionless interop, ISM, Warp Routes |
 | [axelar](skills/axelar/) | multichain | Axelar — GMP, Interchain Token Service |
 
-### Oracles (4)
+### Oracles (5)
 
 | Skill | Chain | Description |
 |-------|-------|-------------|
+| [insight](skills/insight/) | multichain | Insight — oracle-manipulation-aware pre-trade safety check, x402 pay-per-call |
 | [pyth](skills/pyth/) | solana | Pyth — pull oracle, price feeds (Solana) |
 | [pyth-evm](skills/pyth-evm/) | multichain | Pyth — pull oracle, Hermes API (EVM) |
 | [redstone](skills/redstone/) | multichain | RedStone — modular oracle, EVM Connector |
