@@ -250,6 +250,12 @@
       "category": "Trading"
     },
     {
+      "name": "insight",
+      "source": "./skills/insight",
+      "description": "Check whether the price an agent is about to trade is trustworthy. Insight returns an oracle-manipulation-aware verdict (PASS / WARN / BLOCK) for a single trade, computed from multi-provider oracle consensus, with max deviation, manipulation-risk score, and an optional verifiable EIP-712 attestation. Pay-per-call $0.02 in USDC via x402 v2 — no signup, no API key, no subscription. Use before executing any swap, buy, or sell; when sizing DEX trades; when a quoted price looks off; or when the user asks \"is this price safe to trade\", \"check for oracle manipulation\", \"run a pre-trade check\", or asks to verify price-feed integrity. Works for trades settling on Monad, Base, Polygon, Arbitrum One, BNB Chain, and Solana.",
+      "category": "Oracles"
+    },
+    {
       "name": "jupiter",
       "source": "./skills/jupiter",
       "description": "Comprehensive guidance for integrating Jupiter APIs (Ultra Swap, Lend, Perps, Trigger, Recurring, Tokens, Price, Portfolio, Prediction Markets, Send, Studio, Lock, Routing). Use for endpoint selection, integration flows, error handling, and production hardening.",
